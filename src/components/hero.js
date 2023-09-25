@@ -2,10 +2,7 @@ import React from "react";
 import HeroImg from "../assets/hero-img.jpeg";
 
 import {
-  AiOutlineTwitter,
-  AiOutlineYoutube,
-  AiOutlineFacebook,
-  AiOutlineAudit,
+  AiOutlineTwitter,  
   AiOutlineGithub,
   AiOutlineLinkedin,
 } from "react-icons/ai";
