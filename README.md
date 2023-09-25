@@ -4,4 +4,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Deploy 
 
-    scp -prq .\build\* user@michaelwirth.de:public_html
+    via Github Action SCP Copy
