@@ -41,13 +41,14 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build-artifacts
+      - run: ls -la    
       - name: copy file via ssh password
-        uses: appleboy/scp-action@v0.1.4
+        uses: appleboy/scp-action@v0.1.4      
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}      
           password: ${{ secrets.PASSWORD  }}
-          source: 'build/*'
+          source: 'build'
           target: 'public_html'
           rm: true
           strip_components : 1 
