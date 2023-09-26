@@ -48,7 +48,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}      
           password: ${{ secrets.PASSWORD  }}
-          source: 'build'
+          source: ''
           target: 'public_html'
           rm: true
           strip_components : 1 
