@@ -26,8 +26,8 @@ const About = () => {
           <p>Im Backend verwende ich .NET REST Apis + MongoDB oder SQL basierende Systeme.</p>
           <br></br>
           <p>            
-            In meiner Freizet versuche ich gerade neben der Kindererziehung das Gitarrespielen zu lernen 😉, 
-            Administriere einen Shared Mailserver für den erweiterten Familienkreis auf LINUX - basis  und kümmere mich um meine Heimautomatisierung
+            In meiner Freizeit versuche ich gerade neben der Kindererziehung das Gitarrespielen zu lernen 😉, 
+            Administriere einen Shared Mailserver für den erweiterten Familienkreis auf LINUX - Basis  und kümmere mich um meine Heimautomatisierung.
           </p>
         </div>
 
