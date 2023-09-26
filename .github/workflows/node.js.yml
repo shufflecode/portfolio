@@ -37,6 +37,7 @@ jobs:
         username: ${{ secrets.USERNAME }}      
         password: ${{ secrets.PASSWORD  }}
         source: 'build/*'
-        target: 'public_html'
+        target: '/home/michaelwirth/public_html'
         rm: true
         strip_components : 1 
+        overwrite: true
