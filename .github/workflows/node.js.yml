@@ -35,7 +35,7 @@ jobs:
       with:
           if-no-files-found: error
           name: build
-          path: ~/build/*
+          path: build/
 
   deploy:
     needs: [build]
