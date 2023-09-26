@@ -50,6 +50,5 @@ jobs:
           password: ${{ secrets.PASSWORD  }}
           source: '*'
           target: 'public_html'
-          rm: true
-          strip_components : 1 
+          rm: true          
           overwrite: true
