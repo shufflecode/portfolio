@@ -49,6 +49,5 @@ jobs:
           username: ${{ secrets.USERNAME }}      
           password: ${{ secrets.PASSWORD  }}
           source: '*'
-          target: 'public_html'
-          rm: true          
+          target: 'public_html'          
           overwrite: true
